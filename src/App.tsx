@@ -6,11 +6,12 @@ const apiKey = "S76FIC6T4YY73KFJK699WFCX5VRCYA3J7R";
 const provider = ethers.getDefaultProvider();
 
 const apiUrl = `https://api.etherscan.io/api?module=proxy&action=eth_blockNumber&apikey=${apiKey}`;
-const address = "0xdac17f958d2ee523a2206206994597c13d831ec7";
+// const address = "0xdac17f958d2ee523a2206206994597c13d831ec7";
 
 function App() {
   const [block, setBlock] = useState(0);
   const [balance, setBalance] = useState(0);
+  const [value, setValue] = useState("");
 
   const handleSubmit_1 = async () => {
     fetch(apiUrl)
@@ -26,7 +27,7 @@ function App() {
   };
 
   const handleSubmit_2 = async () => {
-    let balance = (await provider.getBalance(address)).toString();
+    let balance = (await provider.getBalance(value)).toString();
     console.log(balance);
     setBalance(+balance);
   };
@@ -34,6 +35,11 @@ function App() {
   return (
     <>
       <div>
+        <h1>Welcome</h1>
+        <h2 className="bio">
+          this is a tool for knowing the latest block number of ethereum mainnet
+          and the balance of any contract address you want
+        </h2>
         <button type="submit" onClick={handleSubmit_1}>
           Get Block
         </button>
@@ -41,8 +47,16 @@ function App() {
           <h2>{block}</h2>
         </div>
         <button type="submit" onClick={handleSubmit_2}>
-          Get Balance
+          Get Balance of
         </button>
+        <span>
+          <input
+            placeholder="Enter contract address"
+            value={value}
+            type="text"
+            onChange={(e) => setValue(e.target.value)}
+          />
+        </span>
         <div>
           <h2>{balance}</h2>
         </div>

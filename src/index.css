@@ -70,6 +70,21 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #5c74f7;
   }
+}
+
+input {
+  height: 3em;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #f9f9f9;
+  outline: none;
+  margin-left: 1em;
+}
+
+.bio {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 2em;
 }
