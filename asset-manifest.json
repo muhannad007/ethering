@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ethering/static/css/main.5b1c383f.css",
-    "main.js": "/ethering/static/js/main.5221735d.js",
+    "main.css": "/ethering/static/css/main.6877f1d7.css",
+    "main.js": "/ethering/static/js/main.e2049097.js",
     "static/js/453.fc45698a.chunk.js": "/ethering/static/js/453.fc45698a.chunk.js",
     "index.html": "/ethering/index.html",
-    "main.5b1c383f.css.map": "/ethering/static/css/main.5b1c383f.css.map",
-    "main.5221735d.js.map": "/ethering/static/js/main.5221735d.js.map",
+    "main.6877f1d7.css.map": "/ethering/static/css/main.6877f1d7.css.map",
+    "main.e2049097.js.map": "/ethering/static/js/main.e2049097.js.map",
     "453.fc45698a.chunk.js.map": "/ethering/static/js/453.fc45698a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b1c383f.css",
-    "static/js/main.5221735d.js"
+    "static/css/main.6877f1d7.css",
+    "static/js/main.e2049097.js"
   ]
 }
