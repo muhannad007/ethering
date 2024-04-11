@@ -11,6 +11,6 @@ Each function of these has a button on the main web page, they will be executed 
 A video of the app and how it works the link below:  
 https://drive.google.com/drive/folders/1IX783wBDV6FlfRk4x7NKaDXAWmuRQACl?usp=sharing  
 App repository in this link:  
-https://github.com/muhannad007/ethering
+https://github.com/muhannad007/ethering  
 The app is hosted on this link:  
 https://muhannad007.github.io/ethering/
