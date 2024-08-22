@@ -37,8 +37,8 @@ function App() {
       <div>
         <h1>Welcome</h1>
         <h2 className="bio">
-          this is a tool for knowing the latest block number of ethereum mainnet
-          and the balance of any contract address you want
+          This is a tool for checking the latest block number of ethereum
+          mainnet and the balance of any contract address you want
         </h2>
         <button type="submit" onClick={handleSubmit_1}>
           Get Block
